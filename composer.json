@@ -1,0 +1,22 @@
+{
+    "name": "paperstreetmedia/podio-github",
+    "description": "An API to be able to post data back and forth from Github to Podio and vice versa",
+    "license": "propriety",
+    "authors": [
+        {
+            "name": "paperstreetmedia",
+            "email": "psm.programmers@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0",
+		"podio/podio-php": "dev-master",
+		"knplabs/github-api": "*"
+    }
+	"autoload": {
+        "psr-0": {
+            "Paperstreetmedia\\PodioGithub\\": "src/"
+        }
+    }
+}
